@@ -16,11 +16,5 @@
     "description": "Проект с датчиком DHT11 и передачей данных по Bluetooth через HM-10.",
     "components": "1. Arduino Uno или Arduino Nano\n2. Датчик температуры и влажности DHT11\n3. Bluetooth модуль HM-10\n4. Резистор 10K (pull-up DATA-VCC)",
     "code": "/* сюда вставь свой длинный код датчика, полностью */\n#include <SoftwareSerial.h>\n#include <DHT.h>\n\n// ...весь твой код...\n"
-  },
-  {
-    "title": "Датчик чего то там туда сюда",
-    "description": "Проект с датчиком DHT11 и передачей данных по Bluetooth через HM-10.",
-    "components": "1. Arduino Uno или Arduino Nano\n2. Датчик температуры и влажности DHT11\n3. Bluetooth модуль HM-10\n4. Резистор 10K (pull-up DATA-VCC)",
-    "code": "/* сюда вставь свой длинный код датчика, полностью */\n#include <SoftwareSerial.h>\n#include <DHT.h>\n\n// ...весь твой код...\n"
   }
 ]
