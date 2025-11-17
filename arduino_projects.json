@@ -2,11 +2,19 @@
   {
     "title": "Мигающий светодиод",
     "description": "Простой проект, в котором светодиод подключён к пину 13 мигает с интервалом в 1 секунду.",
+    "components": "1. Arduino Uno или Arduino Nano\n2. Светодиод\n3. Резистор 220 Ом\n4. Макетная плата и провода",
     "code": "void setup() {\n  pinMode(13, OUTPUT);\n}\n\nvoid loop() {\n  digitalWrite(13, HIGH);\n  delay(1000);\n  digitalWrite(13, LOW);\n  delay(1000);\n}\n"
   },
   {
     "title": "Робот-машинка для управления джойстиком через блютуз",
-    "description": "Список комплектующих которые используются в проекте: ...",
-    "code": "#include <Servo.h>\n\n// твой код тут\n"
+    "description": "Робот-машинка с управлением по Bluetooth (HM-10) через драйвер L298N.",
+    "components": "1. Arduino Uno или Arduino Nano\n2. Драйвер двигателя L298N\n3. Сервопривод SG-90 180°\n4. Провода DuPont 20см\n5. Bluetooth-модуль HM-10\n6. 2x мотор с колесом\n7. Рама (3D-печать)\n8. Источник питания 12V",
+    "code": "/* сюда вставь свой длинный код робота, полностью */\n#include <Servo.h>\n\n// ...весь твой код...\n"
+  },
+  {
+    "title": "Датчик температуры и влаги",
+    "description": "Проект с датчиком DHT11 и передачей данных по Bluetooth через HM-10.",
+    "components": "1. Arduino Uno или Arduino Nano\n2. Датчик температуры и влажности DHT11\n3. Bluetooth модуль HM-10\n4. Резистор 10K (pull-up DATA-VCC)",
+    "code": "/* сюда вставь свой длинный код датчика, полностью */\n#include <SoftwareSerial.h>\n#include <DHT.h>\n\n// ...весь твой код...\n"
   }
 ]
